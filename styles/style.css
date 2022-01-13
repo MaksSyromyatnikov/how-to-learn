@@ -17,6 +17,7 @@
   display: flex;
   background-color: #f2f2f2;
   position: relative;
+  margin-bottom: 100px;
 }
 
 .logo {
@@ -32,7 +33,7 @@
 
 .header__title{
   align-self: center;
-  margin: 0 0 0 64px;
+  margin-left: 64px;
   line-height: 96px;
   font-size: 102px;
   width: 730px;
@@ -79,7 +80,9 @@
 }
 
 .description {
-  margin: 100px auto auto 0;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 100px;
 }
 
 .two-columns {
@@ -88,7 +91,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  margin: 0 175px;
+  width: 80%;
 }
 
 .two-columns__brief {
@@ -120,11 +123,10 @@
 }
 
 .digits {
-  margin-top: 100px;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px auto;
+  margin-bottom: 100px;
 }
 
 .section-title {
@@ -219,7 +221,6 @@
 }
 
 .kaufman {
-  margin: 0 auto;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -254,7 +255,7 @@
 
 .table_theme_dark {
   z-index: 1;
-  margin-bottom: 90px;
+  padding-bottom: 90px;
 }
 
 /* и элемента с модификатором вида ключ-значение */
@@ -278,8 +279,82 @@
   font-weight: normal;
 }
 
+.footer {
+  min-height: 350px;
+  padding-top: 60px;
+  padding-bottom: 40px;
+  background-color:  #1f1f1f;
+}
 
 
+.footer__columns {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+
+.footer__column {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footer__column_content_copyright {
+  flex-basis: 711px;
+}
+
+.logo_place_footer {
+  width: 184px;
+  height: 35px;
+}
+
+.footer__author {
+  line-height: 25px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+
+}
+
+.footer__column_content_info {
+
+}
+
+.footer__column-heading {
+  margin: 0 auto 20px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: bold;
+  color: white;
+}
+
+.footer__column-links {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin-bottom: 16px;
+}
+
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: white;
+  text-decoration: none;
+}
+
+.footer__column_content_social {
+
+}
+
+.footer__social-icon {
+  width: 16px;
+  height: 16px;
+  margin-right: 10px;
+
+}
 
 
 
