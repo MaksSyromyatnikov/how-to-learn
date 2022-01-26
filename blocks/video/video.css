@@ -1,0 +1,6 @@
+.video {
+  display: flex;
+  flex-direction: column;
+  margin-top:50px;
+  transform: translateY(50px);
+}
