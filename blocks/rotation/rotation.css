@@ -1,4 +1,4 @@
-@keyframes rotation {
+@keyframes animation-rotate {
   from {
     transform: rotate(0deg);
   }
@@ -7,6 +7,6 @@
   }
 }
 
-.rotate-pic {
-  animation: rotation 20s infinite linear;
+.rotation {
+  animation: animation-rotate 20s infinite linear;
 }
